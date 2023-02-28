@@ -14,13 +14,13 @@ Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tab
 ### Data Engineering
 Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
 
-Remember to specify the data types, primary keys, foreign keys, and other constraints.
+* Remember to specify the data types, primary keys, foreign keys, and other constraints.
 
-For the primary keys, verify that the column is unique. Otherwise, create a composite key to an external site., which takes two primary keys to uniquely identify a row.
+* For the primary keys, verify that the column is unique. Otherwise, create a composite key to an external site., which takes two primary keys to uniquely identify a row.
 
-Be sure to create the tables in the correct order to handle the foreign keys.
+* Be sure to create the tables in the correct order to handle the foreign keys.
 
-Import each CSV file into its corresponding SQL table.
+* Import each CSV file into its corresponding SQL table.
 
 ### Data Analysis
 1. List the employee number, last name, first name, sex, and salary of each employee.
